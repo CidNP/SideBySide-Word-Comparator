@@ -1,4 +1,4 @@
-# SideBySide-Word-Comparator
+
 
 # DocDiff Viewer
 
