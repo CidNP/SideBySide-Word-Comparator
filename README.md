@@ -40,19 +40,19 @@ It highlights differences at the **paragraph level** and provides synchronized s
 
 ## Example Workflow
 Document 1 (Original)
-Agile improves productivity.
-Scrum is widely adopted.
+- **Agile improves productivity.
+- **Scrum is widely adopted.
 
 Document 2 (Comparison)
-Agile improves productivity.
-Scrum is widely adopted.
-Kanban is also useful.
+- **Agile improves productivity.
+- **Scrum is widely adopted.
+- **Kanban is also useful.
 
 
 Result:
-"Agile improves productivity." → identical
-"Scrum is widely adopted." → identical
-"Kanban is also useful." → highlighted green (extra in Document 2)
+- **"Agile improves productivity." → identical
+- **"Scrum is widely adopted." → identical
+- **"Kanban is also useful." → highlighted green (extra in Document 2)
 
 
 ---
