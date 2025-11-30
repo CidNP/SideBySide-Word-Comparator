@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from docx import Document
 import difflib
+from tkinter import ttk
 
 def read_docx(file_path):
     doc = Document(file_path)
@@ -85,6 +86,17 @@ def show_side_by_side(doc1_path, doc2_path):
     left_text.configure(yscrollcommand=sync_scroll_left)
     right_text.configure(yscrollcommand=sync_scroll_right)
 
+# def get_tables(doc_path):
+#     doc = Document(doc_path)
+#     tables = []
+#     for table in doc.tables:
+#         rows = []
+#         for row in table.rows:
+#             cells = [cell.text.strip() for cell in row.cells]
+#             rows.append(cells)
+#         tables.append(rows)
+#     return tables
+
 
 def select_files():
     # Step 1: Upload Document 1
@@ -105,6 +117,7 @@ def select_files():
 
     # Step 3: Show comparison
     show_side_by_side(file1, file2)
+    
 
 # GUI setup
 root = tk.Tk()
